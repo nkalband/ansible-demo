@@ -5,7 +5,3 @@
       file: 
        path: /tmp/checknode/dirUsingPlaybook6
        state: directory
-    - name: Deleting a directory
-      file:
-       path: /tmp/checknode/dirUsingPlaybook
-       state: absent
