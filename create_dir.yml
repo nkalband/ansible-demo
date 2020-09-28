@@ -3,5 +3,5 @@
    tasks:
     - name: Deleting a directory
       file:
-       path: /tmp/checknode/dirUsingPlaybook
+       path: /tmp/checknode/dirUsingPlaybook6
        state: absent
