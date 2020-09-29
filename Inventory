@@ -1,2 +1,2 @@
 europa.persistent.co.in
-172.18.13.248
+localhost ansible_connection=local
