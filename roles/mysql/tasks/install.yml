@@ -1,0 +1,6 @@
+- name: installing mysql on node
+  yum: 
+   name: mysql
+   state: present
+  notify: 
+   copy index.html file

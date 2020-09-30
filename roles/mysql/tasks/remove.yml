@@ -1,0 +1,5 @@
+---
+ - name: removing mysql
+   yum: 
+    name: mysql
+    state: absent
