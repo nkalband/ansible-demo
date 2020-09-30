@@ -1,4 +1,4 @@
 ---
-- hosts: grp9
+- hosts: localhost
   roles:
    - apache
