@@ -2,3 +2,13 @@
 - hosts: remote
   roles:
    - apache
+- hosts: all
+  tasks:
+   - name: Create a directory
+     file: 
+      path: /tmp/checknode/dirUsingPlaybook6
+      state: directory
+   - name: Deleting a directory
+     file:
+      path: /tmp/checknode/dirUsingPlaybook6
+      state: absent 
