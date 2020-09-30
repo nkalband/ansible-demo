@@ -3,5 +3,6 @@
    yum:
     name: httpd
     state: present
+   become_user: root
    notify:
     restart apache service
